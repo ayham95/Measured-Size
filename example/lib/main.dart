@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:measured_size/measured_size.dart';
+import 'package:measured_size/';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -29,7 +29,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  Size size;
+  Size? size;
 
   void _incrementCounter() {
     setState(() {
