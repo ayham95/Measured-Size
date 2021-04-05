@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:measured_size/';
+import 'package:measured_size/measured_size.dart';
 
 void main() {
   runApp(MyApp());
