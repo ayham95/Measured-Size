@@ -1,8 +1,7 @@
 name: measured_size
 description: A flutter widget that calculates the size of it's child in runtime.
 version: 0.0.1
-author: Ayham Orfali
-homepage:
+homepage: https://github.com/ayham95/Measured-Size
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
