@@ -47,6 +47,9 @@ class _MeasuredSizeState extends State<MeasuredSize> {
 
     await Future.delayed(
         Duration(milliseconds: 100)); // wait till the image is drawn
+
+    if(!mounted) return; // It must be mounted otherwise it cant have size
+
     Size newSize = context.size!;
     if (newSize == Size.zero) return;
     if (oldSize == newSize) return;
