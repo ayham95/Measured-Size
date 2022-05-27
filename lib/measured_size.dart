@@ -26,13 +26,13 @@ class MeasuredSize extends StatefulWidget {
 class _MeasuredSizeState extends State<MeasuredSize> {
   @override
   void initState() {
-    SchedulerBinding.instance!.addPostFrameCallback(postFrameCallback);
+    SchedulerBinding.instance.addPostFrameCallback(postFrameCallback);
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    SchedulerBinding.instance!.addPostFrameCallback(postFrameCallback);
+    SchedulerBinding.instance.addPostFrameCallback(postFrameCallback);
     return Container(
       key: widgetKey,
       child: widget.child,
